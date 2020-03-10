@@ -1,0 +1,29 @@
+{
+    "version": "1.0",
+    "columns": 2,
+    "tiles": [
+        {
+            "types": GITHUB-CHECKS",
+            "label": "PDS Build",
+            "params": {
+                "owner": "NHSDigital",
+                "repository": "personal-demographics-service-api",
+                "ref": "master"
+            }
+        },
+        {
+            "types": GITHUB-PULLREQUESTS",
+            "params": {
+                "owner": "NHSDigital",
+                "repository": "personal-demographics-service-api"
+            }
+        },
+        {
+            "types": GITHUB-PULLREQUESTS",
+            "label": "PDS API Open Issues"
+            "params": {
+                "query": "is:issue is:open repo:NHSDigital/personal-demographics-service-api"
+            }
+        },
+    ]
+}
