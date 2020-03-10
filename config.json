@@ -24,6 +24,6 @@
             "params": {
                 "query": "is:issue is:open repo:NHSDigital/personal-demographics-service-api"
             }
-        },
+        }
     ]
 }
