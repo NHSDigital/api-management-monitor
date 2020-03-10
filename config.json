@@ -3,10 +3,46 @@
     "columns": 2,
     "tiles": [
         {
-            "type": "PING",
+            "type": "GITHUB-CHECKS",
             "params": {
-                "hostname": "localhost"   
+                "owner": "NHSDigital",
+                "repository": "personal-demographics-service-api",
+                "ref": "master"
             }
-        }
+        },
+        {
+            "type": "GROUP",
+            "label": "PDS API Pull Requests",
+            "tiles": [
+                {
+                    "type": "GITHUB-PULLREQUESTS",
+                    "params": {
+                        "owner": "NHSDigital",
+                        "repository": "personal-demographics-service-api"
+                    }
+                }
+            ] 
+        },
+        {
+            "type": "HTTP-STATUS",
+            "label": "Developer Portal",
+            "params": {
+                "url": "https://digital.nhs.uk/developer/apis"
+            }
+        },
+        {
+            "type": "HTTP-STATUS",
+            "label": "Apigee Portal",
+            "params": {
+                "url": "https://emea-demo8-nhsdportal.apigee.io/"
+            }
+        },
+        {
+            "type": "HTTP-STATUS",
+            "label": "PDS Documentation",
+            "params": {
+                "url": "https://emea-demo8-nhsdportal.apigee.io/docs/patients-sandbox/1/overview"
+            }
+        },
     ]
 }
