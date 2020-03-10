@@ -19,7 +19,7 @@
             }
         },
         {
-            "types": "GITHUB-PULLREQUESTS",
+            "types": "GITHUB-COUNT",
             "label": "PDS API Open Issues",
             "params": {
                 "query": "is:issue is:open repo:NHSDigital/personal-demographics-service-api"
