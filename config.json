@@ -43,6 +43,6 @@
             "params": {
                 "url": "https://emea-demo8-nhsdportal.apigee.io/docs/patients-sandbox/1/overview"
             }
-        },
+        }
     ]
 }
