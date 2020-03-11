@@ -24,12 +24,10 @@
             ] 
         },
         {
-            "type": "HTTP-STATUS",
+            "type": "HTTP-RAW",
             "label": "Developer Portal",
             "params": {
-                "url": "https://digital.nhs.uk/developer/apis",
-                "statusCodeMin": 200,
-                "statusCodeMax": 299
+                "url": "https://digital.nhs.uk/developer/apis"
             }
         },
         {
