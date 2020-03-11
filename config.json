@@ -6,6 +6,27 @@
             "type": "GITHUB-CHECKS",
             "params": {
                 "owner": "NHSDigital",
+                "repository": "hello-world-api",
+                "ref": "master"
+            }
+        },
+        {
+            "type": "GROUP",
+            "label": "Hello World API Pull Requests",
+            "tiles": [
+                {
+                    "type": "GITHUB-PULLREQUESTS",
+                    "params": {
+                        "owner": "NHSDigital",
+                        "repository": "hello-world-api"
+                    }
+                }
+            ] 
+        },
+        {
+            "type": "GITHUB-CHECKS",
+            "params": {
+                "owner": "NHSDigital",
                 "repository": "personal-demographics-service-api",
                 "ref": "master"
             }
