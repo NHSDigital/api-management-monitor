@@ -27,21 +27,27 @@
             "type": "HTTP-STATUS",
             "label": "Developer Portal",
             "params": {
-                "url": "https://digital.nhs.uk/developer/apis"
+                "url": "https://digital.nhs.uk/developer/apis",
+                "statusCodeMin": "200",
+                "statusCodeMax": "299"
             }
         },
         {
             "type": "HTTP-STATUS",
             "label": "Apigee Portal",
             "params": {
-                "url": "https://emea-demo8-nhsdportal.apigee.io/"
+                "url": "https://emea-demo8-nhsdportal.apigee.io/",
+                "statusCodeMin": "200",
+                "statusCodeMax": "299"
             }
         },
         {
             "type": "HTTP-STATUS",
             "label": "PDS Documentation",
             "params": {
-                "url": "https://emea-demo8-nhsdportal.apigee.io/docs/patients-sandbox/1/overview"
+                "url": "https://emea-demo8-nhsdportal.apigee.io/docs/patients-sandbox/1/overview",
+                "statusCodeMin": "200",
+                "statusCodeMax": "299"
             }
         }
     ]
